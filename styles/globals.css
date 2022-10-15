@@ -34,3 +34,9 @@ a {
 ::-webkit-scrollbar-track {
   background-color: transparent;
 }
+
+@layer components{
+  .normal-link{
+    @apply flex justify-center items-center gap-3 hover:bg-primary p-3 xl:justify-start cursor-pointer font-semibold text-[#F51997] rounded;
+  }
+}
